@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body{
     width: 1440px;
     height: 1080px;
@@ -22,3 +24,70 @@ h1{
     line-height: 24.18px;
     letter-spacing: -8%;
 }
+
+#design{
+    display: flex;
+    margin: 100px;
+    padding: auto ;
+}
+
+.scarecrow{
+    width: 539.22px;
+    height: 447.43px;
+    top: 265px;
+    left: 77px;
+}
+
+#twt{
+    margin-top: 50px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bad-new{
+    width: 586px;
+    height: 190px;
+    top: 265px;
+    left: 735px;
+    margin: 50px 50px;
+}
+
+.bad-new{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+    letter-spacing: -3.5px;
+}
+
+#unavailable{
+    width: 381px;
+    height: 108px;
+    top: 491px;
+    left: 736px;
+    margin: 50px 60px;
+}
+
+.unavailable{
+    font-family: "Space Mono", monospace;
+    font: weight 400px;
+    font-size: 24px;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+}
+
+.button{
+    margin: 80px auto;
+}
+
+button{
+    width: 216px;
+    height: 68px;
+    top: 663px;
+    left: 740px;
+    color: whitesmoke;
+    background-color: black;
+    margin: auto 65px;
+}
+
