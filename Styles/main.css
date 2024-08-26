@@ -5,18 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
-    width: 1440px;
-    height: 1080px;
-    top: -541px;
-    left: -939px;
-    border-radius: 8px;
+    width: 1200px;
 }
 
 #head{
     width: 133px;
-    height: 25px;
-    top: 40px;
-    left: 77px;
+    margin-top: 10px;
+    margin-left: 77px;
 }
 
 h1{
@@ -29,13 +24,16 @@ h1{
 
 #design{
     display: flex;
-    margin: 100px;
-    padding: auto ;
+    margin: 5px;
+    padding: 5px ;
+    margin-left: 77px;
+    margin-top: 10px;
 }
 
 .scarecrow{
-    width: 539.22px;
-    height: 447.43px;
+    width: 90%;
+    
+    height: 400px;
     top: 265px;
     left: 77px;
 }
@@ -47,28 +45,36 @@ h1{
     margin-right: auto;
 }
 
+#container {
+    width: 500px;
+    height: 400px;
+}
+
 #bad-new{
-    width: 586px;
-    height: 190px;
-    top: 265px;
-    left: 735px;
-    margin: 50px 50px;
+    width: 430px;
+    margin: 0px 50px;
+    height:200px ;
+}
+
+#bad-new p {
+    margin-top: 0;
 }
 
 .bad-new{
     font-family: "Space Mono", monospace;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 94.78px;
     letter-spacing: -3.5px;
 }
 
 #unavailable{
-    width: 381px;
+    width: 380px;
     height: 108px;
     top: 491px;
     left: 736px;
-    margin: 50px 60px;
+    margin-top:20px;
+    margin-left: 50px;
 }
 
 .unavailable{
@@ -80,33 +86,30 @@ h1{
 }
 
 .button{
-    margin: 80px auto;
+      margin-top:50px;
 }
 
 button{
-    width: 216px;
-    height: 68px;
+    width: 180px;
+    height: 55px;
     top: 663px;
     left: 740px;
     color: whitesmoke;
     background-color: black;
-    margin: auto 65px;
+    margin-left: 50px;
+    
 }
 
 #foot{
-    width: 216px;
-    height: 68px;
-    top: 663px;
-    left: 740px;
-    margin: auto;
-    
+    width: 216px; 
+    margin-left: 550px;
 }
 .foot{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-size: 10px;
-    line-height: 17.07px;
     text-align: center; 
+    
 }
 
 .username{
