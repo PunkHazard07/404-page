@@ -1,63 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    width: 1200px;
+    width: 100%;
 }
 
 #head{
-    width: 133px;
-    margin-top: 10px;
-    margin-left: 77px;
+    margin: 20px 20px;
+    padding: 20px 30px;
 }
 
 h1{
-    font-family: "Inconsolata", monospace;;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24.18px;
+    line-height: 25.18px;
     letter-spacing: -8%;
 }
-
 #design{
     display: flex;
-    margin: 5px;
-    padding: 5px ;
-    margin-left: 77px;
-    margin-top: 10px;
-}
-
-.scarecrow{
-    width: 90%;
-    
-    height: 400px;
-    top: 265px;
-    left: 77px;
+    margin: 30px 50px;
+    justify-content: space-between;
 }
 
 #twt{
-    margin-top: 50px;
-    margin-bottom: 48px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 20px;
+
 }
 
-#container {
-    width: 500px;
+.scarecrow{
+    width: 100%;
     height: 400px;
-}
-
-#bad-new{
-    width: 430px;
-    margin: 0px 50px;
-    height:200px ;
-}
-
-#bad-new p {
-    margin-top: 0;
 }
 
 .bad-new{
@@ -68,13 +48,14 @@ h1{
     letter-spacing: -3.5px;
 }
 
+#container {
+    /* padding: 0 68px; */
+    /* width: 50%; */
+}
+
 #unavailable{
-    width: 380px;
-    height: 108px;
-    top: 491px;
-    left: 736px;
+    margin-bottom: 50px;
     margin-top:20px;
-    margin-left: 50px;
 }
 
 .unavailable{
@@ -86,30 +67,24 @@ h1{
 }
 
 .button{
-      margin-top:50px;
-}
-
-button{
+    margin-top:3px;
     width: 180px;
     height: 55px;
-    top: 663px;
-    left: 740px;
     color: whitesmoke;
     background-color: black;
-    margin-left: 50px;
-    
 }
 
 #foot{
-    width: 216px; 
-    margin-left: 550px;
+    /* width: 216px; */
+    /* margin-left: 550px; */
+    text-align: center;
 }
+
 .foot{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-size: 10px;
-    text-align: center; 
-    
+
 }
 
 .username{
@@ -117,3 +92,87 @@ button{
     font-weight: 700;
 }
 
+@media only screen and (max-width:600px){
+    #design{
+        flex-direction: column; 
+    }
+    body{
+        background-color: darkgray;
+    }
+
+    #head{
+        width: 190px;
+        height: 25px;
+        margin: 0px 50px;
+    }
+
+    h1{
+        font-family: "Inconsolata", monospace;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24.18px;
+        letter-spacing: -8%;
+    
+    }
+
+    #twt{
+        padding: 0 20px;
+        margin-right: 70px;
+    }
+
+    .scarecrow{
+        width: 100%;
+        height: 200px;
+        margin-left: 30px;
+        padding-left: 30px;
+    }
+
+    #bad-new{
+        width: 350px;
+        height: 142px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .bad-new{
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 71.09px;
+        letter-spacing: -3.5%;
+    }
+
+    #unavailable{
+     width: 328px;
+     height: 81px;
+     margin-right: 28px;
+     margin-bottom: 50px;
+    
+    }
+
+    .unavailable{
+        font-family: "Space Mono", monospace;
+        font: weight 400px;
+        font-size: 15px;
+        line-height: 35.54px;
+        letter-spacing: -3.5%;
+    }
+
+    .foot{
+        margin-left: auto;
+    }
+
+    .button{
+        margin-top:3px;
+        width: 180px;
+        height: 55px;
+        color: whitesmoke;
+        background-color: black;
+    }
+
+
+
+
+    
+
+}
